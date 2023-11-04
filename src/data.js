@@ -1,7 +1,7 @@
 export let data = [
     {
-        color: '#6cc644',
-        logo: 'fa-solid fa-user',
+        color: '#FF1E1E',
+        logo: 'fa-solid fa-user-astronaut',
         name: 'Portfolio',
         link: 'https://sami-portfolio-omega.vercel.app/',
         
