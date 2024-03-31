@@ -9,7 +9,7 @@ export let data = [
     color: "#16ff00",
     logo: "material-symbols:terminal",
     name: "Pixel Resume",
-    link: "https://sami-portfolio-omega.vercel.app/",
+    link: "https://pixel-resume.vercel.app//",
   },
   {
     color: "#f5f5f5",
