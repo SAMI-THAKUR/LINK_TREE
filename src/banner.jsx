@@ -1,5 +1,7 @@
 import { data } from "./data.js";
 import "./banner.css";
+import { Icon } from "@iconify-icon/react";
+
 export function List() {
   return (
     <div className="li">
@@ -23,9 +25,14 @@ const Banner = (p) => {
 
   return (
     <a href={link} target="blank" style={{ textDecoration: "none" }}>
-      <button className="banners">
+      <button className="banners align-middle flex">
         <div className="logo">
-          <i className={logo} style={{ color: color, marginTop: 2 }}></i>
+          <Icon
+            icon={`${logo}`}
+            style={{ color: color }}
+            className="logo flex justify-center text-2xl mt-1"
+            id="logo"
+          />
         </div>
         <div className="lname">{name}</div>
       </button>

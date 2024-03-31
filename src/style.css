@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merienda&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banners:hover #logo {
+  color: white;
+}
 main {
   width: 100%;
   height: 100%;
@@ -25,6 +32,7 @@ main {
   margin-top: 5px;
   margin-bottom: -50px;
   justify-self: center;
+  display: flex;
 }
 .stars,
 .twinkling {

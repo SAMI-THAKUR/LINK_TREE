@@ -29,16 +29,15 @@ function BackGround() {
           background="transparent"
           speed="1"
           style={{
-            width: 250,
-            height: 250,
+            width: 220,
+            height: 220,
             justifySelf: "center",
-            marginTop: 20,
+            marginTop: 10,
           }}
           loop
           autoplay
         ></dotlottie-player>
         <List />
-        <div className="credit">Desing & Developed by &lt;/SAMI&gt;</div>
       </div>
     </main>
   );
