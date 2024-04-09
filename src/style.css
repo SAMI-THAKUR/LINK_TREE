@@ -12,76 +12,10 @@ main {
   height: 100%;
 }
 
-.content {
-  display: grid;
-  width: fit-content;
-  height: fit-content;
-  position: absolute;
-  top: 0;
-  z-index: 50;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
 .name {
-  font-family: "Fugaz One", sans-serif;
-  font-size: 45px;
   color: transparent;
-  -webkit-text-stroke: 1px #ffe81f;
-  margin-top: 5px;
-  margin-bottom: -50px;
+  -webkit-text-stroke: 1px #d5d5d5;
+  margin-top: 1px;
   justify-self: center;
   display: flex;
-}
-.stars,
-.twinkling {
-  position: absolute;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.stars {
-  z-index: 0;
-  background: #000 url("https://i.imgur.com/YKY28eT.png") repeat;
-}
-
-.twinkling {
-  z-index: 1;
-  background: transparent url("https://i.imgur.com/XYMF4ca.png") repeat top
-    center;
-  animation: move-twink-back 200s linear infinite;
-}
-
-.credit {
-  font-family: "Merienda", cursive;
-  justify-self: center;
-  margin-top: 5px;
-  font-size: 20px;
-  color: #16ff00;
-  text-shadow: 2px 2px 10px #f8f6f4;
-}
-
-@keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .name {
-    font-size: 40px;
-  }
-  .credit {
-    font-size: 18px;
-  }
 }

@@ -13,7 +13,7 @@
   padding-top: 6px;
   padding-bottom: 6px;
   border-style: solid;
-  border-color: #ffe81f;
+  border-color: #7d7d81;
   border-width: 1px;
   transition: all 0.1s;
   margin-bottom: 15px;
@@ -21,7 +21,7 @@
 }
 .banners:hover {
   border-width: 1px;
-  transform: translate(0, -0.25rem);
+  transform: translate(0, -0.2rem);
   border-color: #f8f6f4;
 }
 
@@ -38,7 +38,7 @@
   box-shadow: none;
 }
 .lname {
-  font-size: 20px;
+  font-size: 21px;
   color: #f1ebe1;
   font-family: "Courier New", Courier, monospace;
   width: fit-content;
@@ -67,17 +67,18 @@
   }
 }
 @media only screen and (max-width: 650px) {
+  .lname {
+    font-size: 18px;
+  }
   .banners {
     border-width: 1px;
     transform: translate(-0.25rem, -0.25rem);
-    border-color: #ffe81f;
-    box-shadow: 2px 2px #ffe81f;
+    border-color: #7d7d81;
   }
   .banners:hover {
     border-width: 1px;
     transform: translate(-0.25rem, -0.25rem);
-    border-color: #ffe81f;
-    box-shadow: 2px 2px #ffe81f;
+    border-color: #f1ebe1;
   }
   .banners:active {
     transform: translate(0);

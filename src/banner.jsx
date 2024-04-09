@@ -1,6 +1,5 @@
 import { data } from "./data.js";
 import "./banner.css";
-import { Icon } from "@iconify-icon/react";
 
 export function List() {
   return (
@@ -21,21 +20,27 @@ export function List() {
   );
 }
 const Banner = (p) => {
-  const { color, logo, name, link } = p;
+  const { logo, name, link } = p;
 
   return (
-    <a href={link} target="blank" style={{ textDecoration: "none" }}>
-      <button className="banners align-middle flex">
+    <div className="flex gap-2 align-middle">
+      <a
+        href={link}
+        target="blank"
+        style={{ textDecoration: "none" }}
+        className="banners align-middle flex"
+      >
         <div className="logo">
-          <Icon
-            icon={`${logo}`}
-            style={{ color: color }}
-            className="logo flex justify-center text-2xl mt-1"
-            id="logo"
+          <img
+            src={logo}
+            alt=""
+            className="w-7 h-7 flex justify-center align-middle"
           />
         </div>
-        <div className="lname">{name}</div>
-      </button>
-    </a>
+        <div className="lname flex justify-center align-middle">
+          {name}
+        </div>
+      </a>
+    </div>
   );
 };
