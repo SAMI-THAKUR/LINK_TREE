@@ -24,7 +24,7 @@ function BackGround() {
           {socials.map((social, index) => {
             return (
               <a
-                href={social.url}
+                href={social.link}
                 className={`  transition duration-300 hover:-translate-y-1 rounded-full p-2  grid  my-auto bg-dhtext shadow-lg hover:shadow-slate-600`}
                 target="_blank"
                 key={index}
