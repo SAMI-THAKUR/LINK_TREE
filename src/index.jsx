@@ -20,7 +20,7 @@ const customStyles = {
 };
 
 function BackGround() {
-  const [modalIsOpen, setIsOpen] = React.useState(true);
+  const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal() {
     console.log("open");

@@ -23,9 +23,9 @@ const Banner = (p) => {
         </div>
         <div className="lname flex justify-center align-middle">{name}</div>
       </a>
-      <button>
+      {/* <button>
         <Icon icon="material-symbols:share" className="flex my-auto text-lg px-3 text-gray-400" />
-      </button>
+      </button> */}
     </div>
   );
 };
