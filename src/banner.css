@@ -6,8 +6,8 @@
 .banners {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
-  width: 300px;
+  justify-content: space-between;
+  width: 320px;
   height: fit-content;
   padding-left: 20px;
   padding-top: 6px;
